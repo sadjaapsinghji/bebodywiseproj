@@ -1,0 +1,56 @@
+{
+  "products": [
+    {
+      "id": "salicylic_body_wash",
+      "name": "1% Salicylic Acid Body Wash",
+      "category": "body_wash",
+      "shortName": "Salicylic Acid Body Wash",
+      "purpose": ["body acne", "rough or bumpy skin", "back bumps"],
+      "keyActive": "1% Salicylic Acid",
+      "fragrance": "Scented",
+      "suitableFor": ["oily skin", "body acne", "bumpy skin"],
+      "cautions": ["Avoid broken skin", "Avoid if severe stinging occurs", "Use sunscreen on exposed areas"],
+      "usage": "Massage onto wet skin on concern areas. Leave for 1–2 minutes, then rinse thoroughly.",
+      "accent": "blue"
+    },
+    {
+      "id": "gentle_body_wash",
+      "name": "Gentle Daily Body Wash",
+      "category": "body_wash",
+      "shortName": "Gentle Daily Body Wash",
+      "purpose": ["sensitive skin", "gentle cleansing", "dry skin"],
+      "keyActive": "Niacinamide + Ceramides",
+      "fragrance": "Unscented",
+      "suitableFor": ["sensitive skin", "dry skin", "fragrance sensitivity"],
+      "cautions": ["For external use only"],
+      "usage": "Lather onto wet skin daily and rinse off gently.",
+      "accent": "lavender"
+    },
+    {
+      "id": "aha_roll_on",
+      "name": "3% AHA Roll-On Deodorant",
+      "category": "roll_on",
+      "shortName": "3% AHA Roll-On",
+      "purpose": ["underarm odour", "sweat", "dark patches"],
+      "keyActive": "3% Mandelic + Lactic Acid",
+      "fragrance": "Scented",
+      "suitableFor": ["underarm odour", "dark patches"],
+      "cautions": ["Do not use right after shaving or waxing", "Stop use if irritation develops"],
+      "usage": "Apply on clean, dry underarms. Avoid broken or freshly shaven skin.",
+      "accent": "coral"
+    },
+    {
+      "id": "sensitive_roll_on",
+      "name": "Sensitive Care Roll-On",
+      "category": "roll_on",
+      "shortName": "Sensitive Care Roll-On",
+      "purpose": ["underarm odour", "sensitive underarms", "post-shave care"],
+      "keyActive": "Aloe Vera + Bisabolol",
+      "fragrance": "Unscented",
+      "suitableFor": ["sensitive skin", "post-shave care", "odour control"],
+      "cautions": ["For external use only"],
+      "usage": "Roll gently onto clean, dry underarms.",
+      "accent": "green"
+    }
+  ]
+}

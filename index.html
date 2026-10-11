@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#123d37" />
+    <title>Bodywise Care Guide</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Return to Bodywise Care Guide home">
+          <span class="brand-mark">b</span>
+          <span>bodywise<span class="brand-dot">.</span></span>
+        </a>
+        <div class="topbar-right">
+          <span class="scope-pill"><span class="scope-dot"></span> Body wash &amp; roll-on</span>
+          <button class="icon-button" id="restart-button" type="button" title="Start over" aria-label="Start over">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7M3 4v5h5"/></svg>
+          </button>
+        </div>
+      </header>
+
+      <main class="page-wrap">
+        <section class="privacy-banner" aria-label="Privacy notice">
+          <span class="privacy-icon">⌁</span>
+          <p><strong>Your answers stay on this device.</strong> This guide is offline-first and does not diagnose, prescribe, or replace medical care.</p>
+          <button type="button" class="dismiss-button" id="dismiss-privacy" aria-label="Dismiss privacy notice">×</button>
+        </section>
+        <div id="app" aria-live="polite"></div>
+      </main>
+
+      <footer>
+        <span>Bodywise Care Guide</span><span class="footer-separator">•</span><span>Private product guidance, not medical advice</span>
+      </footer>
+    </div>
+    <div class="toast" id="toast" role="status"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
